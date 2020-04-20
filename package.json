@@ -1,0 +1,25 @@
+{
+  "name": "platzi-cientifico",
+  "version": "1.0.0",
+  "description": "Course SPA with Vanilla Javascript (platzi)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Sandra Menendez Alonso",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "html-webpack-plugin": "^4.2.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
